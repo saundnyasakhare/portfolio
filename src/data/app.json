@@ -1,0 +1,50 @@
+{
+    "settings": {
+        "siteName": "Saundnya",
+        "formspreeURL": "https://formspree.io/f/your_api_key",
+        "mailchimp": {
+            "url": "",
+            "key": ""
+        }
+    },
+    "header": {
+        "logo": {
+            "symbol": "C",
+            "link": "/"
+        },
+        "button": {
+            "link": "/contact"
+        },
+        "menu": [
+            {
+                "label": "Home",
+                "link": "/",
+                "children": 0
+            },
+            {
+                "label": "Portfolio",
+                "link": "/portfolio-list",
+                "children": 0
+            },
+            {
+                "label": "Contact",
+                "link": "/contact",
+                "children": 0
+            }
+        ]
+    },
+    "footer": {
+        "copy": "© 2026. Saundnya Sakhare. All rights reserved."    },
+    "social": [
+        {
+            "link": "https://in.linkedin.com/in/saundnya-sakhare-883498239",
+            "icon": "fab fa-linkedin",
+            "title": "Linkedin"
+        },
+        {
+            "link": "https://www.instagram.com/saundnyasakhare",
+            "icon": "fab fa-instagram",
+            "title": "Instagram"
+        }
+    ]
+}
