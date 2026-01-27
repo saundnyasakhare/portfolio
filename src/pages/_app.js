@@ -2,7 +2,7 @@ import React from "react";
 import Head from "next/head";
 import appData from "@data/app.json";
 
-import '../styles/scss/style-light.scss';
+import '../styles/scss/style-dark.scss';
 import "../styles/globals.css";
 
 import { register } from "swiper/element/bundle";
