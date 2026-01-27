@@ -2,21 +2,21 @@
     "title": "Services",
     "items": [
         {
-            "title": "UI/UX Design",
+            "title": "PR & Brand Storytelling",
             "icon": "/img/icons/1.svg",
-            "text": "Elevate your online presence with captivating user interfaces and seamless experiences",
+            "text": "Craft compelling narratives and PR campaigns that elevate brand presence and build lasting audience connections.",
             "link": "/services/service-1"
         },
         {
-            "title": "Logo Design",
+            "title": "Content Creation",
             "icon": "/img/icons/2.svg",
-            "text": "Establish a strong and cohesive brand identity that resonates with your audience.",
+            "text": "Create engaging content across platforms that turns analytics into storytelling and builds real audience connection.",
             "link": "/services/service-2"
         },
         {
-            "title": "Branding",
+            "title": "Event Production",
             "icon": "/img/icons/3.svg",
-            "text": "All of which have a singular goal: to build environments where our clients thrive.",
+            "text": "Coordinate creative events from concept to delivery, blending storytelling with seamless logistics.",
             "link": "/services/service-3"
         }
     ]

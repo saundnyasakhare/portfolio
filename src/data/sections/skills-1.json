@@ -1,21 +1,21 @@
 {
-    "title": "Language Skills",
+    "title": "Core Competencies",
     "items": [
         {
-            "label": "English",
+            "label": "Event Planning",
+            "value": "90"
+        },
+        {
+            "label": "Public Speaking",
             "value": "95"
         },
         {
-            "label": "French",
+            "label": "Leadership",
             "value": "85"
         },
         {
-            "label": "Spanish",
-            "value": "60"
-        },
-        {
-            "label": "German",
-            "value": "40"
+            "label": "Effective Communication",
+            "value": "95"
         }
     ]
 }

@@ -123,7 +123,7 @@ const Contact = () => {
                 </div>
                 <div className="col-lg-12 saundyaup">
                     <textarea 
-                      placeholder="Tell us about our portfolio"
+                      placeholder="Tell me about your project"
                       name="message" 
                       required="required"
                       onChange={handleChange}

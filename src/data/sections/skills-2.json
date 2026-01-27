@@ -1,29 +1,29 @@
 {
-    "title": "Hard Skills",
+    "title": "Professional Skills",
     "items": [
         {
-            "label": "Figma",
+            "label": "Content Creation",
             "value": "95"
         },
         {
-            "label": "Adobe XD",
+            "label": "Social Media Management",
             "value": "90"
         },
         {
-            "label": "Sketch",
+            "label": "Production",
+            "value": "85"
+        },
+        {
+            "label": "Storytelling",
+            "value": "95"
+        },
+        {
+            "label": "PR & Brand Strategy",
+            "value": "85"
+        },
+        {
+            "label": "Time Management",
             "value": "80"
-        },
-        {
-            "label": "Photoshop",
-            "value": "70"
-        },
-        {
-            "label": "Html",
-            "value": "40"
-        },
-        {
-            "label": "Css",
-            "value": "40"
         }
     ]
 }
