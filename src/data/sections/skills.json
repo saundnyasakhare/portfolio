@@ -2,21 +2,21 @@
     "title": "Skills",
     "items": [
         {
-            "title": "PR & Brand Storytelling",
+            "title": "Public Relations Executive",
             "icon": "/img/icons/1.svg",
-            "text": "Craft compelling narratives and PR campaigns that elevate brand presence and build lasting audience connections.",
+            "text": "I shape brand reputation by driving media visibility and crafting messages that build trust and influence audiences",
             "link": "/skills/service-1"
         },
         {
-            "title": "Content Creation",
+            "title": "Creative director & Copywriter",
             "icon": "/img/icons/2.svg",
-            "text": "Create engaging content across platforms that turns analytics into storytelling and builds real audience connection.",
+            "text": "I transform ideas into compelling concepts and persuasive content that capture attention and inspire action.",
             "link": "/skills/service-2"
         },
         {
-            "title": "Event Production",
+            "title": "Brand Strategist",
             "icon": "/img/icons/3.svg",
-            "text": "Coordinate creative events from concept to delivery, blending storytelling with seamless logistics.",
+            "text": "I build meaningful brand identities by aligning storytelling, audience insight, and business goals.",
             "link": "/skills/service-3"
         }
     ]

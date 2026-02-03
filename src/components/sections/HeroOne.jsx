@@ -7,8 +7,8 @@ const HeroOne = () => {
             <section className="saundyaside-banner saundyacenter">
                 <div className="saundyabanner-top saundyaup"></div>
                 <div className="saundyabanner-title">
-                    <div className="saundyaupper saundyadark saundyaup saundyamb-30">{Data.subtitle}</div>
-                    <h1 className="saundyaup saundyamb-30" dangerouslySetInnerHTML={{__html : Data.title}} />
+                    <div className="saundyaupper saundyadark saundyaup saundyamb">{Data.subtitle}</div>
+                    <h1 className="saundyaup saundyamb" dangerouslySetInnerHTML={{__html : Data.title}} />
                     <p className="saundyaupper saundyadark saundyaup">{Data.description}</p>
                 </div>
                 <div className="saundyaup saundyaoval-frame">

@@ -11,7 +11,7 @@ const TestimonialSlider = () => {
           <h3>{Data.title}</h3>
       </div>
 
-      {/* revievs */}
+      {/* reviews */}
       <section className="saundyap-90-90">
 
         <div className="row justify-content-center saundyareviews-slider-frame">
