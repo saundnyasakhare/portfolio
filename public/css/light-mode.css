@@ -1279,8 +1279,8 @@ right banner
   transition: 0.4s cubic-bezier(0, 0, 0.3642, 1);
 }
 .saundyaright-banner .saundyabanner-wrapper .saundyabanner-frame .saundyabanner-bg.saundyablur {
-  -webkit-filter: blur(3px);
-          filter: blur(3px);
+  -webkit-filter: blur(0px);
+          filter: blur(0px);
 }
 .saundyaright-banner .saundyabanner-wrapper .saundyabanner-frame .saundyabanner-person {
   top: 0;
