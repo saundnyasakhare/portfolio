@@ -39,9 +39,9 @@ const PageBanner = ({ pageTitle, breadTitle, align }) => {
                     <Link href="/portfolio">Portfolio</Link>
                   </li>
                   }
-                  {asPath.indexOf('/services/') != -1 &&
+                  {asPath.indexOf('/skills/') != -1 &&
                   <li>
-                    <Link href="/services">Services</Link>
+                    <Link href="/skills">Skills</Link>
                   </li>
                   }
                   <li dangerouslySetInnerHTML={{__html : clearBreadTitle}} />

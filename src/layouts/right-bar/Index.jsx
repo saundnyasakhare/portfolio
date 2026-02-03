@@ -22,7 +22,7 @@ const rightPanelModule = ( { background, img } ) => {
             <div className="saundyaflying-skills" data-depth="0.1">
                 {img != undefined &&
                 <div id="swupSkills" className="saundyaskills-frame">
-                    <div className="saundyaitem" style={{"top": "30%", "left": "10%"}}>
+                    {/* <div className="saundyaitem" style={{"top": "30%", "left": "10%"}}>
                         <img src="/img/logos/1.jpg" alt="logo" />
                     </div>
                     <div className="saundyaitem" style={{"bottom": "15%", "left": "20%"}}>
@@ -30,12 +30,12 @@ const rightPanelModule = ( { background, img } ) => {
                     </div>
                     <div className="saundyaitem" style={{"bottom": "45%", "right": "15%"}}>
                         <img src="/img/logos/3.jpg" alt="logo" />
-                    </div>
+                    </div> */}
 
-                    <div className="saundyael saundyaaddition-el-1">+</div>
-                    <div className="saundyael saundyaaddition-el-2">+</div>
-                    <div className="saundyael saundyaaddition-el-3" />
-                    <div className="saundyael saundyaaddition-el-4" />
+                    {/* <div className="saundyael saundyaaddition-el-1">+</div>
+                    <div className="saundyael saundyaaddition-el-2">+</div> */}
+                    {/* <div className="saundyael saundyaaddition-el-3" />
+                    <div className="saundyael saundyaaddition-el-4" /> */}
                 </div>
                 }
             </div>

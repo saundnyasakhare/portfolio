@@ -1,23 +1,23 @@
 {
-    "title": "Services",
+    "title": "Skills",
     "items": [
         {
             "title": "PR & Brand Storytelling",
             "icon": "/img/icons/1.svg",
             "text": "Craft compelling narratives and PR campaigns that elevate brand presence and build lasting audience connections.",
-            "link": "/services/service-1"
+            "link": "/skills/service-1"
         },
         {
             "title": "Content Creation",
             "icon": "/img/icons/2.svg",
             "text": "Create engaging content across platforms that turns analytics into storytelling and builds real audience connection.",
-            "link": "/services/service-2"
+            "link": "/skills/service-2"
         },
         {
             "title": "Event Production",
             "icon": "/img/icons/3.svg",
             "text": "Coordinate creative events from concept to delivery, blending storytelling with seamless logistics.",
-            "link": "/services/service-3"
+            "link": "/skills/service-3"
         }
     ]
 }

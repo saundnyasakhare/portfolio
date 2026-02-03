@@ -14,7 +14,6 @@ const AboutSection = () => {
                             <h2 className="saundyaup saundyamb-30" dangerouslySetInnerHTML={{__html : Data.title}} />
                             <div className="saundyaquote saundyaup saundyamb-30"><i className="fas fa-quote-left" /></div>
                             <p className="saundyaup saundyamb-30">{Data.description}</p>
-                            <img src={Data.signature.image} alt={Data.signature.alt} className="saundyaup saundyasign" />
                         </div>
                     </div>
                 </div>

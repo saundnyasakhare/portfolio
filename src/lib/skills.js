@@ -4,17 +4,17 @@ import matter from 'gray-matter'
 import { remark } from 'remark'
 import html from 'remark-html'
 
-const servicesDirectory = path.join(process.cwd(), 'src/data/services')
+const skillsDirectory = path.join(process.cwd(), 'src/data/skills')
 
-export function getSortedServicesData() {
+export function getSortedSkillsData() {
   // Get file names under /posts
-  const fileNames = fs.readdirSync(servicesDirectory)
+  const fileNames = fs.readdirSync(skillsDirectory)
   const allData = fileNames.map(fileName => {
     // Remove ".md" from file name to get id
     const id = fileName.replace(/\.md$/, '')
 
     // Read markdown file as string
-    const fullPath = path.join(servicesDirectory, fileName)
+    const fullPath = path.join(skillsDirectory, fileName)
     const fileContents = fs.readFileSync(fullPath, 'utf8')
 
     // Use gray-matter to parse the post metadata section
@@ -36,8 +36,8 @@ export function getSortedServicesData() {
   })
 }
 
-export function getAllServicesIds() {
-  const fileNames = fs.readdirSync(servicesDirectory)
+export function getAllSkillsIds() {
+  const fileNames = fs.readdirSync(skillsDirectory)
   return fileNames.map(fileName => {
     return {
       params: {
@@ -48,7 +48,7 @@ export function getAllServicesIds() {
 }
 
 export async function getServiceData(id) {
-  const fullPath = path.join(servicesDirectory, `${id}.md`)
+  const fullPath = path.join(skillsDirectory, `${id}.md`)
   const fileContents = fs.readFileSync(fullPath, 'utf8')
 
   // Use gray-matter to parse the post metadata section
