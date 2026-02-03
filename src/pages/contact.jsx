@@ -13,7 +13,7 @@ const Contact = () => {
       
         {/* info */}
         <div>
-            <ul className="saundyapuplication-details saundyaup saundyamb-90">
+            <ul className="saundyapuplication-details saundyaup saundyamb">
                 <li>
                     <span className="saundyaupper saundyaaccent">Write: </span>&nbsp;&nbsp;
                     <span className="saundyaupper saundyadark">saundnyas@gmail.com</span>
@@ -22,7 +22,7 @@ const Contact = () => {
         </div>
 
         {/* map */}
-        <div className="saundyamap saundyamb-90">
+        {/* <div className="saundyamap saundyamb-90">
             <iframe 
               src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1396.5769090312324!2d-73.6519672!3d45.5673453!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cc91f8abc30e0ff%3A0xfc6d9cbb49022e9c!2sManoir%20Saint-Joseph!5e0!3m2!1sen!2sua!4v1685485811069!5m2!1sen!2sua" 
               style={{"border": "0"}} 
@@ -30,7 +30,7 @@ const Contact = () => {
               loading="lazy" 
               referrerPolicy="no-referrer-when-downgrade" 
             />
-        </div>
+        </div> */}
         {/* map end */}
 
         <div className="saundyasection-title saundyaup">
