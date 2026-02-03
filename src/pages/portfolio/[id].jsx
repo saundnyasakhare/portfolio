@@ -40,7 +40,7 @@ const PortfolioDetail = ( props ) => {
               </ul>
               <h1 className="saundyah1-sm saundyaup saundyamb-60">{postData.title}</h1>
               <ul className="saundyabreadcrumbs saundyaup">
-                  <li><Link href="/">Homepage</Link></li>
+                  <li><Link href="/">Saundnya Sakhare</Link></li>
                   <li><Link href="/portfolio-list">Portfolio</Link></li>
                   <li>Portfolio</li>
               </ul>

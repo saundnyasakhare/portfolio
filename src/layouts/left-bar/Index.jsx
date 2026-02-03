@@ -6,7 +6,7 @@ const leftPanelModule = () => {
         {/* left bar */}
         <div className="saundyaleft-panel">
 
-            <div className="saundyapage-name saundyaupper saundyadark">Homepage</div>
+            <div className="saundyapage-name saundyaupper saundyadark">Saundnya Sakhare</div>
 
             <ul className="saundyasocial-icons">
                 {appData.social.map((item, key) => (

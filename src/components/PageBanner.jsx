@@ -28,7 +28,7 @@ const PageBanner = ({ pageTitle, breadTitle, align }) => {
           <div className="saundyabanner-title">
               <h1 className="saundyah1-sm saundyaup saundyamb-60" dangerouslySetInnerHTML={{__html : pageTitle}} />
               <ul className="saundyabreadcrumbs saundyaup">
-                  <li><Link href="/">Homepage</Link></li>
+                  <li><Link href="/">Saundnya Sakhare</Link></li>
                   {asPath.indexOf('/blog/') != -1 &&
                   <li>
                     <Link href="/blog">Blog</Link>

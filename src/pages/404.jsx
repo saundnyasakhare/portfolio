@@ -27,7 +27,7 @@ const E404 = () => {
                 <use xlinkHref="#circlePath" fill="none" />
                 <text style={{"letterSpacing": "7.8px"}}>
                   {/* circle text */}
-                  <textPath xlinkHref="#circlePath">Go back to the homepage - </textPath>
+                  <textPath xlinkHref="#circlePath">Go back to the Saundnya Sakhare - </textPath>
                 </text>
               </g>
             </svg>
