@@ -5,8 +5,8 @@ const E404 = () => {
   return (
     <Layouts 
       noFooter
-      rightPanelBackground={"/img/person/bg-3.jpg"}
-      rightPanelImg={"/img/person/3.png"}
+      rightPanelBackground={"/img/person/bg-1.jpg"}
+      rightPanelImg={"/img/person/2.png"}
     >
       {/* banner */}
       <section className="saundyaside-banner saundyacenter">
