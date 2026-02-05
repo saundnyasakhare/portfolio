@@ -1,4 +1,5 @@
 import Data from "@data/sections/about.json";
+import basePath from "@common/basePath";
 
 const AboutSection = () => {
     return (
@@ -6,7 +7,7 @@ const AboutSection = () => {
             {/* about */}
             <section id="about" className="saundyap-0-90">
                 <div className="saundyaoval-frame-2 saundyamb-90">
-                    <img src={Data.avatar.image} alt={Data.avatar.alt} />
+                    <img src={`${basePath}${Data.avatar.image}`} alt={Data.avatar.alt} />
                 </div>
                 <div className="row justify-content-center">
                     <div className="col-lg-8">

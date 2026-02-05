@@ -1,4 +1,5 @@
 import { useEffect } from "react";
+import { useRouter } from "next/router";
 import { scrollAnimation } from "../common/scrollAnims";
 import { preloaderAnimation } from "../common/preloader";
 import { countersAnimation } from "../common/counters";
@@ -37,6 +38,8 @@ const Layouts = ({
     bodyClass = false;
   }
 
+  const router = useRouter();
+
   useEffect(() => {
     //preloaderAnimation();
     scrollAnimation();
@@ -45,12 +48,22 @@ const Layouts = ({
     anchorSscroll();
 
     if ( document != undefined && bodyClass ) {
-      document.querySelector('body').classList.add(...bodyClass);
+      if ( Array.isArray(bodyClass) ) {
+        document.querySelector('body').classList.add(...bodyClass);
+      } else {
+        document.querySelector('body').classList.add(bodyClass);
+      }
     } else {
       document.querySelector('body').classList.remove('saundyafw-page');
       document.querySelector('body').classList.remove('saundya100-page');
     }
-  }, []);
+
+    return () => {
+      // Clean up body classes on unmount so they don't persist across navigations
+      document.querySelector('body').classList.remove('saundyafw-page');
+      document.querySelector('body').classList.remove('saundya100-page');
+    };
+  }, [router.asPath]);
 
   return (
     <div className="saundyawrapper" id="top">

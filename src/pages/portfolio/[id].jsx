@@ -1,4 +1,5 @@
 import Layouts from "@layouts/Layouts";
+import basePath from "@common/basePath";
 
 import Link from "next/link";
 
@@ -13,7 +14,7 @@ const PortfolioDetail = ( props ) => {
   return (
     <Layouts
       fullWidth={postData.fullWidth}
-      rightPanelBackground={postData.image}
+      rightPanelBackground={`${basePath}${postData.image}`}
     >
     
       {/* banner */}
@@ -49,7 +50,7 @@ const PortfolioDetail = ( props ) => {
       {/* banner end */}
       
       {postData.fullWidth == true &&
-      <img src={postData.image} alt={postData.title} style={{"width": "100%"}} className="saundyaup saundyamb-90" />
+      <img src={`${basePath}${postData.image}`} alt={postData.title} style={{"width": "100%"}} className="saundyaup saundyamb-90" />
       }
 
       {/* portfolio */}
@@ -71,14 +72,14 @@ const PortfolioDetail = ( props ) => {
                     <>
                     {postData.gallery.items.map((item, key) => (
                     <div key={`gallery-item-${key}`} className={key == 0 ? "col-lg-12" : "col-lg-6"}>
-                        <img src={item.image} alt={item.alt} style={{"width": "100%"}} className="saundyaup saundyamb-30" />
+                        <img src={`${basePath}${item.image}`} alt={item.alt} style={{"width": "100%"}} className="saundyaup saundyamb-30" />
                     </div>
                     ))}
                     </>
                   }
                 </>
               }
-              
+
               {typeof postData.description2 != "undefined" &&
                 <>
                   {postData.description2.enabled == 1 &&
@@ -108,7 +109,7 @@ const PortfolioDetail = ( props ) => {
                     <>
                     {postData.gallery2.items.map((item, key) => (
                     <div key={`gallery-item-${key}`} className={key == 0 ? "col-lg-12" : "col-lg-6"}>
-                        <img src={item.image} alt={item.alt} style={{"width": "100%"}} className="saundyaup saundyamb-30" />
+                        <img src={`${basePath}${item.image}`} alt={item.alt} style={{"width": "100%"}} className="saundyaup saundyamb-30" />
                     </div>
                     ))}
                     </>

@@ -1,13 +1,14 @@
 import PageBanner from "@/src/components/PageBanner";
 import Layouts from "@/src/layouts/Layouts";
+import basePath from "@common/basePath";
 import { Formik } from 'formik';
 import appData from "@data/app.json";
 
 const Contact = () => {
   return (
     <Layouts
-      rightPanelBackground={"/img/person/bg-1.jpg"}
-      rightPanelImg={"/img/person/2.png"}
+      rightPanelBackground={`${basePath}/img/person/bg-1.jpg`}
+      rightPanelImg={`${basePath}/img/person/2.png`}
     >
         <PageBanner pageTitle={"Get in touch!"} align={"center"} />
       

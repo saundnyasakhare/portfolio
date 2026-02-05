@@ -1,5 +1,6 @@
 import React from "react";
 import Link from "next/link";
+import basePath from "@common/basePath";
 
 const PortfolioMasonry = ({ portfolio }) => {
     const portfolioRows = [];
@@ -19,7 +20,7 @@ const PortfolioMasonry = ({ portfolio }) => {
                     <div className={row_key%2==0 ? key%2 == 0 ? "col-lg-5" : "col-lg-6" : key%2 == 0 ? "col-lg-6" : "col-lg-5"} key={`portfolio-item-${row_key}-${key}`}>
                         <Link href={`/portfolio/${item.id}`} className="saundyaportfolio-item saundyamb-60">
                             <div className="saundyacover-frame saundyaup">
-                                <img src={item.image} alt={item.title} />
+                                <img src={`${basePath}${item.image}`} alt={item.title} />
                             </div>
                             <div className="saundyadescription saundyaup">
                                 <div>

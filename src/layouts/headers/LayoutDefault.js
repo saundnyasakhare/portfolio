@@ -2,6 +2,7 @@ import Link from "next/link";
 import { useState } from "react";
 import appData from "@data/app.json";
 import { useRouter } from 'next/router';
+import basePath from "@common/basePath";
 
 const DefaultHeader = ({ extraClass }) => {
   const [toggle, setToggle] = useState(false);
@@ -31,7 +32,7 @@ const DefaultHeader = ({ extraClass }) => {
 
         {/* Logo */}
         <Link href={appData.header.logo.link} className="saundyalogo">
-          <img src="/saundnyasakhare.png" alt="Saundnya Sakhare" style={{ height: '40px' }} />
+          <img src={`${basePath}/saundnyasakhare.png`} alt="Saundnya Sakhare" style={{ height: '40px' }} />
         </Link>
 
         <div className={`saundyanavigation ${toggle ? "saundyaactive" : ""}`}>

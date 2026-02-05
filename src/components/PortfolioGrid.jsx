@@ -1,4 +1,5 @@
 import Link from "next/link";
+import basePath from "@common/basePath";
 
 const PortfolioGrid = ({ portfolio, columns }) => {
     let colClasses = "col-lg-12";
@@ -19,7 +20,7 @@ const PortfolioGrid = ({ portfolio, columns }) => {
                     {columns == 1 &&
                     <Link href={`/portfolio/${item.id}`} className="saundyaportfolio-item saundyaitem-2 saundyaup saundyamb-60">
                         <div className="saundyacover-frame">
-                            <img src={item.image} alt={item.title} data-swiper-parallax="-130" data-swiper-parallax-scale="1.25" />
+                            <img src={`${basePath}${item.image}`} alt={item.title} data-swiper-parallax="-130" data-swiper-parallax-scale="1.25" />
                         </div>
 
                         <div className="saundyadescription" data-swiper-parallax-y="-100%" data-swiper-parallax-duration="400">
@@ -31,7 +32,7 @@ const PortfolioGrid = ({ portfolio, columns }) => {
                     {columns != 1 &&
                     <Link href={`/portfolio/${item.id}`} className="saundyaportfolio-item saundyamb-60">
                         <div className="saundyacover-frame saundyaup">
-                            <img src={item.image} alt={item.title} />
+                            <img src={`${basePath}${item.image}`} alt={item.title} />
                         </div>
                         <div className="saundyadescription saundyaup">
                             <div>

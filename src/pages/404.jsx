@@ -1,12 +1,13 @@
 import Layouts from "@/src/layouts/Layouts";
 import Link from "next/link";
+import basePath from "@common/basePath";
 
 const E404 = () => {
   return (
     <Layouts 
       noFooter
-      rightPanelBackground={"/img/person/bg-1.jpg"}
-      rightPanelImg={"/img/person/2.png"}
+      rightPanelBackground={`${basePath}/img/person/bg-1.jpg`}
+      rightPanelImg={`${basePath}/img/person/2.png`}
     >
       {/* banner */}
       <section className="saundyaside-banner saundyacenter">

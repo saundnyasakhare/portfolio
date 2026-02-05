@@ -1,5 +1,6 @@
 import React from "react";
 import Layouts from "@layouts/Layouts";
+import basePath from "@common/basePath";
 
 import HeroOneSection from "@components/sections/HeroOne"
 import AboutSection from "@components/sections/About";
@@ -11,8 +12,8 @@ import CallToActionSection from "@components/sections/CallToAction";
 const Home1 = () => {
   return (
     <Layouts
-      rightPanelBackground={"/img/person/bg-1.jpg"}
-      rightPanelImg={"/img/person/2.png"}
+      rightPanelBackground={`${basePath}/img/person/bg-1.jpg`}
+      rightPanelImg={`${basePath}/img/person/2.png`}
     >
       <HeroOneSection />
       <AboutSection />

@@ -4,6 +4,9 @@ import { ScrollTrigger } from "gsap/dist/ScrollTrigger";
 export const scrollAnimation = () => {
     gsap.registerPlugin(ScrollTrigger);
 
+    // Kill old ScrollTrigger instances to prevent conflicts on re-navigation
+    ScrollTrigger.getAll().forEach(trigger => trigger.kill());
+
     // appearance
     const appearance = document.querySelectorAll(".saundyaup");
 
@@ -67,4 +70,7 @@ export const scrollAnimation = () => {
             toggleActions: "play none reverse none"
         }
     });
+
+    // Refresh ScrollTrigger so elements already in viewport get triggered
+    ScrollTrigger.refresh();
 }

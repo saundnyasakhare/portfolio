@@ -2,6 +2,7 @@ import { sliderProps } from "@/src/common/sliderProps";
 import { Swiper, SwiperSlide } from "swiper/react";
 
 import Link from "next/link";
+import basePath from "@common/basePath";
 
 const PortfolioSlider = ( { portfolio } ) => {
   return (
@@ -18,7 +19,7 @@ const PortfolioSlider = ( { portfolio } ) => {
 
                                 <div className="saundyaportfolio-item saundyaitem-2 saundyacarousel-item">
                                     <div className="saundyacover-frame">
-                                        <img src={item.image} alt={item.title} data-swiper-parallax="-130" data-swiper-parallax-scale="1.25" />
+                                        <img src={`${basePath}${item.image}`} alt={item.title} data-swiper-parallax="-130" data-swiper-parallax-scale="1.25" />
                                     </div>
                                     <div className="saundyadescription" data-swiper-parallax-y="-100%" data-swiper-parallax-duration="400">
                                         <h4>{item.title}</h4>

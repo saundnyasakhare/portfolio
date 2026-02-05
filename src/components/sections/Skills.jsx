@@ -1,4 +1,5 @@
 import Data from "@data/sections/skills.json";
+import basePath from "@common/basePath";
 
 const SkillsSection = () => {
   return (
@@ -15,7 +16,7 @@ const SkillsSection = () => {
                 <div key={`skills-item-${key}`} className="col-lg-4">
                     <div className="saundyaicon-box saundyacenter saundyamb-60">
                         <div className="saundyaservice-icon saundyaup">
-                            <img src={item.icon} alt={item.title} className="saundyamb-30" />
+                            <img src={`${basePath}${item.icon}`} alt={item.title} className="saundyamb-30" />
                         </div>
                         <h5 className="saundyaup saundyamb-30">{item.title}</h5>
                         <p className="saundyaup saundyamb-30">{item.text}</p>

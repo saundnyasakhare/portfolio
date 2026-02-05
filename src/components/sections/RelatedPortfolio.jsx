@@ -1,5 +1,6 @@
 import Data from "@data/sections/related-portfolio.json";
 import Link from "next/link";
+import basePath from "@common/basePath";
 
 const RelatedPortfolioSection = ( Content ) => {
 
@@ -18,7 +19,7 @@ const RelatedPortfolioSection = ( Content ) => {
 
                     <Link href={`/portfolio/${item.id}`} className="saundyaportfolio-item saundyamb-60">
                         <div className="saundyacover-frame saundyaup">
-                            <img src={item.image} alt={item.title} />
+                            <img src={`${basePath}${item.image}`} alt={item.title} />
                         </div>
                         <div className="saundyadescription saundyaup">
                             <div>

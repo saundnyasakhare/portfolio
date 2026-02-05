@@ -1,6 +1,6 @@
 ---
 #preview
-title: Aevoe. Visual Identity
+title: Aevoe.
 image: /img/portfolio/1.jpg
 category: Content strategy
 
