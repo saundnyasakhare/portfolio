@@ -112,6 +112,17 @@ const PortfolioDetail = ( props ) => {
                         <img src={`${basePath}${item.image}`} alt={item.alt} style={{"width": "100%"}} className="saundyaup saundyamb-30" />
                     </div>
                     ))}
+                    {postData.gallery2.button != undefined &&
+                    <div className="col-lg-12">
+                        <a href={postData.gallery2.button.link} target="_blank" className="saundyalink saundyaup saundyamb-60">
+                            <span>{postData.gallery2.button.label}</span>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="feather feather-arrow-right">
+                                <line x1="5" y1="12" x2="19" y2="12" />
+                                <polyline points="12 5 19 12 12 19" />
+                            </svg>
+                        </a>
+                    </div>
+                    }
                     </>
                   }
                 </>
@@ -122,7 +133,7 @@ const PortfolioDetail = ( props ) => {
       </section>
       {/* portfolio end */}
 
-      <RelatedPortfolioSection items={props.related} />
+      {/* <RelatedPortfolioSection items={props.related} /> */}
 
     </Layouts>
   );

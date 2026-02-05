@@ -1,9 +1,10 @@
 ---
 #preview
-title: Social Media
+title: Email Marketing
 image: /img/portfolio/1.jpg
 category: Mailchimp
 link: ""
+order: 5
 
 #full details
 details:

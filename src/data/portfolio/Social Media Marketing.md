@@ -1,9 +1,9 @@
 ---
 #preview
-title: PR Stories
+title: Social Media Marketing
 image: /img/portfolio/1.jpg
-category: Bring it back
-order: 3
+category: 
+order: 6
 
 #full details
 details:

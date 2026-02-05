@@ -26,13 +26,11 @@ export function getSortedPortfolioData() {
       ...matterResult.data
     }
   })
-  // Sort posts by date
+  // Sort by order field (lower number = first), items without order go last
   return allData.sort((a, b) => {
-    if (a.id > b.id) {
-      return 1
-    } else {
-      return -1
-    }
+    const orderA = a.order != null ? a.order : 999
+    const orderB = b.order != null ? b.order : 999
+    return orderA - orderB
   })
 }
 

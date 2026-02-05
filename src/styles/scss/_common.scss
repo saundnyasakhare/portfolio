@@ -216,6 +216,22 @@ a {
     text-align: right;
 }
 
+.feature-list {
+    text-align: left;
+    list-style: disc;
+    padding-left: 20px;
+}
+
+.click-btn {
+    color: #2563eb;
+    text-decoration: none;
+    font-weight: 600;
+
+    &:hover {
+        text-decoration: underline;
+    }
+}
+
 .saundyaupper {
     text-transform: uppercase;
     font-size: 12px;

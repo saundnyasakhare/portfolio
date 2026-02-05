@@ -3,6 +3,7 @@
 title: Press Release
 image: /img/portfolio/1.jpg
 category: Nevada Conservatory Theatre
+order: 4
 
 #full details
 details:
