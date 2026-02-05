@@ -16,7 +16,7 @@ const Portfolio2 = (props) => {
       rightPanelBackground={`${basePath}/img/person/bg-1.jpg`}
       rightPanelImg={`${basePath}/img/person/2.png`}
     >
-      <PageBanner pageTitle={"Designing a <br>Better World Today"} breadTitle={"Portfolio"} align={"center"} />
+      <PageBanner pageTitle={"Designing Ideas<br>That Move People"} breadTitle={"Portfolio"} align={"center"} />
 
       <PortfolioGrid portfolio={props.portfolio} columns={2} />
 

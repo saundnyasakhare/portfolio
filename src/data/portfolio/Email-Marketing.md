@@ -1,8 +1,9 @@
 ---
 #preview
-title: Aevoe. Visual Identity
+title: Social Media
 image: /img/portfolio/1.jpg
-category: Content strategy
+category: Mailchimp
+link: ""
 
 #full details
 details:

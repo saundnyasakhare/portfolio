@@ -1,8 +1,8 @@
 ---
 #preview
-title: Aevoe.
+title: News Articles
 image: /img/portfolio/1.jpg
-category: Content strategy
+category: Nevada Central Media 
 
 #full details
 details:

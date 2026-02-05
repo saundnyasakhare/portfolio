@@ -1,8 +1,8 @@
 ---
 #preview
-title: Aevoe.
+title: Press Release
 image: /img/portfolio/1.jpg
-category: Content strategy
+category: Nevada Conservatory Theatre
 
 #full details
 details:

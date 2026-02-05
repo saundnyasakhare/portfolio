@@ -1,8 +1,8 @@
 ---
 #preview
-title: Aevoe. Visual Identity
+title: PR Stories
 image: /img/portfolio/1.jpg
-category: Content strategy
+category: Bring it back
 
 #full details
 details:

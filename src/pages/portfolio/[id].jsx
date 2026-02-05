@@ -3,7 +3,7 @@ import basePath from "@common/basePath";
 
 import Link from "next/link";
 
-import { getPortfolioData, getRelatedPortfolio } from "@library/portfolio";
+import { getPortfolioData, getRelatedPortfolio, getAllPortfolioIds } from "@library/portfolio";
 
 import RelatedPortfolioSection from "@components/sections/RelatedPortfolio";
 
@@ -130,9 +130,9 @@ const PortfolioDetail = ( props ) => {
 export default PortfolioDetail;
 
 export async function getStaticPaths() {
-    // Only generate portfolio-1 route
+    const paths = getAllPortfolioIds();
     return {
-      paths: [{ params: { id: 'portfolio-1' } }],
+      paths,
       fallback: false
     }
 }

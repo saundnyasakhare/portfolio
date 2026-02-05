@@ -1,8 +1,8 @@
 ---
 #preview
-title: Aevoe. Visual Identity
+title: IMC Campaign
 image: /img/portfolio/1.jpg
-category: Content strategy
+category: Allegiant Air
 
 #full details
 details:
