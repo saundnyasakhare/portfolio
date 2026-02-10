@@ -1,5 +1,5 @@
-import PageBanner from "@/src/components/PageBanner";
-import Layouts from "@/src/layouts/Layouts";
+import PageBanner from "@components/PageBanner";
+import Layouts from "@layouts/Layouts";
 import basePath from "@common/basePath";
 import { Formik } from 'formik';
 import appData from "@data/app.json";

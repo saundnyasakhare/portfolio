@@ -21,6 +21,7 @@ const PortfolioDetail = ( props ) => {
       <section className="saundyabanner-sm saundyacenter">
           <div className="saundyabanner-top saundyaup" />
           <div className="saundyabanner-title">
+              {postData.details && postData.details.length > 0 && (
               <ul className="saundyapuplication-details saundyaup saundyamb-60">
                   {postData.details.map((item, key) => (
                   <li key={`portfolio-details-item-${key}`}>
@@ -39,6 +40,7 @@ const PortfolioDetail = ( props ) => {
                   </li>
                   ))}
               </ul>
+              )}
               <h1 className="saundyah1-sm saundyaup saundyamb-60">{postData.title}</h1>
               <ul className="saundyabreadcrumbs saundyaup">
                   <li><Link href="/">Saundnya Sakhare</Link></li>
