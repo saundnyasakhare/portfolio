@@ -29,7 +29,7 @@
 .saundyaportfolio-item-overlay h3 {
   color: #fff;
   margin: 0;
-  font-size: 20px;
+  font-size: 18px;
   font-weight: 600;
 }
 
@@ -38,7 +38,7 @@
   display: inline-flex;
   align-items: center;
   gap: 6px;
-  font-size: 14px;
+  font-size: 12px;
   pointer-events: auto;
   text-transform: uppercase;
   letter-spacing: 1px;

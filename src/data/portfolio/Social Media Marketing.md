@@ -1,59 +1,22 @@
 ---
 #preview
 title: Social Media Marketing
-image: /img/portfolio/1.jpg
+image: /img/portfolio/Frame 8.jpg
 category: 
 order: 6
 
 #full details
-details:
-    - label: "Client:"
-      value: "Envato"
-
-    - label: "Date:"
-      value: "April 2022"
-
-    - label: "$category"
-
-description:
+description4:
     enabled: 1
     content: "
-        <p>Our pieces, ranging from sophisticated office chairs to versatile home furniture, embody a unique blend of style, functionality, and ergonomic excellence. Venture into the Aevoe universe and experience how our furniture transforms your daily living and working spaces into realms of elegance and comfort.</p>
     "
-
-gallery: 
-    enabled: 1
-    items:
-        - image: /img/portfolio/project-1/1.jpg
-          alt: "image"
-
-        - image: /img/portfolio/project-1/1.jpg
-          alt: "image"
-
-        - image: /img/portfolio/project-1/1.jpg
-          alt: "image"
-
-description2:
-    enabled: 1
-    heading: "Visual identity design"
-    content: "
-        <p>Embrace the extraordinary with Aevoe - a premium furnishing brand that fuses modern design with supreme comfort.</p>
-        <p>Our pieces, ranging from sophisticated office chairs to versatile home furniture, embody a unique blend of style, functionality, and ergonomic excellence. Venture into the Aevoe universe and experience how our furniture transforms your daily living and working spaces into realms of elegance and comfort.</p>
-    "
-    button:
-        label: Visit website
-        link: ""
-        target: "_blank"
-
-gallery2: 
-    enabled: 1
-    items:
-        - image: /img/portfolio/project-1/1.jpg
-          alt: "image"
-
-        - image: /img/portfolio/project-1/1.jpg
-          alt: "image"
-
-        - image: /img/portfolio/project-1/1.jpg
-          alt: "image"
+    buttons:
+        - label: "@nctlv"
+          link: "https://www.instagram.com/nctlv/?hl=en"
+          target: "_blank"
+          
+        
+        - label: "@ischoolconnect"
+          link: "https://www.instagram.com/ischoolconnect/?hl=en"
+          target: "_blank"
 ---

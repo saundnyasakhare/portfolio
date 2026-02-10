@@ -1,7 +1,7 @@
 ---
 #preview
 title: PR Stories
-image: /img/portfolio/BIB.png
+image: /img/portfolio/BIB-portrait (1).jpg
 category: Bring it back
 order: 3
 

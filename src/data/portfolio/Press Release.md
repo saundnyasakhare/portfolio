@@ -1,19 +1,19 @@
 ---
 #preview
 title: Press Release
-image: /img/portfolio/1.jpg
+image: /img/portfolio/NCT.jpg
 category: Nevada Conservatory Theatre
 order: 4
 
 #full details
 details:
-    - label: "Client:"
-      value: "NCT"
+#     - label: "Client:"
+#       value: "NCT"
 
-    - label: "Date:"
-      value: "until May 2026"
+#     - label: "Date:"
+#       value: "until May 2026"
 
-    - label: "Press Release"
+    - label: "Nevada Conservatory Theatre"
 
 description:
     enabled: 1
@@ -24,36 +24,54 @@ description:
 gallery: 
     enabled: 1
     items:
-        - image: /img/portfolio/project-1/1.jpg
-          alt: "image"
+        - image: 
+          alt: ""
 
-        - image: /img/portfolio/project-1/1.jpg
+        - image: /img/portfolio/Christmas cAROL 1941 poster.jpg
           alt: "image"
+          title: "A Christmas Carol 1941"
+          link: "https://drive.google.com/file/d/1oFyruEVhkkqj-_OuBEOH1Hsgb9jCakni/view?usp=sharing"
+          target: "_blank"
 
-        - image: /img/portfolio/project-1/1.jpg
+        - image: /img/portfolio/Hedda_Poster4.jpg
           alt: "image"
-
-description2:
-    enabled: 1
-    heading: "Visual identity design"
-    content: "
-        <p>Embrace the extraordinary with Aevoe - a premium furnishing brand that fuses modern design with supreme comfort.</p>
-        <p>Our pieces, ranging from sophisticated office chairs to versatile home furniture, embody a unique blend of style, functionality, and ergonomic excellence. Venture into the Aevoe universe and experience how our furniture transforms your daily living and working spaces into realms of elegance and comfort.</p>
-    "
-    button:
-        label: Visit website
-        link: ""
-        target: "_blank"
+          title: "Hedda Gabler"
+          link: "https://drive.google.com/file/d/1eNTh27BOce8Daf2-qPGJBrIfHKPqKjUV/view?usp=sharing"
+          target: "_blank"
 
 gallery2: 
     enabled: 1
     items:
-        - image: /img/portfolio/project-1/1.jpg
-          alt: "image"
+        - image: 
+          alt: ""
 
-        - image: /img/portfolio/project-1/1.jpg
+        - image: /img/portfolio/Merry Wives of Windsor.jpg
           alt: "image"
+          title: "The Merry Wives Of Windsor"
+          link: "https://drive.google.com/file/d/1Sbz1yBOIxD8EQgRkZwj5ijUJR8Megojz/view?usp=sharing"
+          target: "_blank"
 
-        - image: /img/portfolio/project-1/1.jpg
+        - image: /img/portfolio/Murder on the Ortient Express poster.jpg
           alt: "image"
+          title: "Murder On The Orient Express"
+          link: "https://drive.google.com/file/d/1B9gPC6rnL6TFd5C2IeXFSHBOgnEM8e1i/view?usp=sharing"
+          target: "_blank"
+
+gallery3: 
+    enabled: 1
+    items:
+        - image: 
+          alt: ""
+
+        - image: /img/portfolio/Underpants_Poster3.jpg
+          alt: "image"
+          title: "The Underpants"
+          link: "https://drive.google.com/file/d/1bU2Ou8Rm1RlgDyeiaJknkIaUdtrSG4e8/view?usp=sharing"
+          target: "_blank"
+
+        - image: /img/portfolio/Work_Shorts_Poster2.jpg
+          alt: "image"
+          title: "Shorts : The Worker"
+          link: "https://drive.google.com/file/d/1dVzvnLxYaot_Epy1uye_XGC7cq95sm1R/view?usp=sharing"
+          target: "_blank"
 ---

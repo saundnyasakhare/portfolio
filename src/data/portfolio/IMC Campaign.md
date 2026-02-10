@@ -1,7 +1,7 @@
 ---
 #preview
 title: IMC Campaign
-image: /img/portfolio/1-1.jpg
+image: /img/portfolio/1-1.png
 category: Allegiant Air
 order: 1
 
