@@ -26,7 +26,6 @@ const TestimonialSlider = () => {
 
                       <div className="saundyareview saundyacenter" data-swiper-parallax-opacity="0" data-swiper-parallax="-90" data-swiper-parallax-scale=".8">
                           <div className="saundyareview-top">
-                              <img src={`${basePath}${item.image}`} alt={item.name} className="saundyaavatar saundyaup" />
                               <div className="saundyaname">
                                   <h4 className="saundyaup saundyamb-5">{item.name}</h4>
                                   <p className="saundyaupper saundyaup">{item.role}</p>
