@@ -40,7 +40,11 @@ const DefaultHeader = ({ extraClass }) => {
                 <ul>
                     {navItems.map((item, key) => (
                     <li className={item.classes} key={`header-menu-item-${key}`}>
-                        <Link href={item.link}>{item.label}</Link>
+                        {item.link.startsWith('http') ? (
+                          <a href={item.link} target="_blank" rel="noopener noreferrer">{item.label}</a>
+                        ) : (
+                          <Link href={item.link}>{item.label}</Link>
+                        )}
                         {item.children != 0 &&
                         <ul>
                             {item.children.map((subitem, key2) => (
@@ -55,14 +59,7 @@ const DefaultHeader = ({ extraClass }) => {
         </div>
 
         <div className="saundyatop-panel-btns">
-            <Link href={appData.header.button.link} className="saundyacontact-btn">
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="feather feather-mail">
-                    <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z" />
-                    <polyline points="22,6 12,13 2,6" />
-                </svg>
-            </Link>
-
-            <div 
+            <div
               className={`saundyamenu-btn ${toggle ? "saundyaactive" : ""}`}
               onClick={() => setToggle(!toggle)}
             >
