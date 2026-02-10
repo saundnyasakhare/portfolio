@@ -74,7 +74,25 @@ const PortfolioDetail = ( props ) => {
                     <>
                     {postData.gallery.items.map((item, key) => (
                     <div key={`gallery-item-${key}`} className={key == 0 ? "col-lg-12" : "col-lg-6"}>
-                        <img src={`${basePath}${item.image}`} alt={item.alt} style={{"width": "100%"}} className="saundyaup saundyamb-30" />
+                        {item.link ? (
+                          <a href={item.link} target={item.target || "_blank"} className="saundyaportfolio-item">
+                            <img src={`${basePath}${item.image}`} alt={item.alt} />
+                            {(item.title || item.link) && (
+                              <div className="saundyaportfolio-item-overlay">
+                                {item.title && <h3>{item.title}</h3>}
+                                <span className="saundyalink">
+                                  <span>View</span>
+                                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="feather feather-arrow-right">
+                                    <line x1="5" y1="12" x2="19" y2="12" />
+                                    <polyline points="12 5 19 12 12 19" />
+                                  </svg>
+                                </span>
+                              </div>
+                            )}
+                          </a>
+                        ) : (
+                          <img src={`${basePath}${item.image}`} alt={item.alt} style={{"width": "100%"}} className="saundyaup saundyamb-30" />
+                        )}
                     </div>
                     ))}
                     </>
@@ -110,8 +128,26 @@ const PortfolioDetail = ( props ) => {
                   {postData.gallery2.enabled == 1 &&
                     <>
                     {postData.gallery2.items.map((item, key) => (
-                    <div key={`gallery-item-${key}`} className={key == 0 ? "col-lg-12" : "col-lg-6"}>
-                        <img src={`${basePath}${item.image}`} alt={item.alt} style={{"width": "100%"}} className="saundyaup saundyamb-30" />
+                    <div key={`gallery2-item-${key}`} className={key == 0 ? "col-lg-12" : "col-lg-6"}>
+                        {item.link ? (
+                          <a href={item.link} target={item.target || "_blank"} className="saundyaportfolio-item">
+                            <img src={`${basePath}${item.image}`} alt={item.alt} />
+                            {(item.title || item.link) && (
+                              <div className="saundyaportfolio-item-overlay">
+                                {item.title && <h3>{item.title}</h3>}
+                                <span className="saundyalink">
+                                  <span>View</span>
+                                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="feather feather-arrow-right">
+                                    <line x1="5" y1="12" x2="19" y2="12" />
+                                    <polyline points="12 5 19 12 12 19" />
+                                  </svg>
+                                </span>
+                              </div>
+                            )}
+                          </a>
+                        ) : (
+                          <img src={`${basePath}${item.image}`} alt={item.alt} style={{"width": "100%"}} className="saundyaup saundyamb-30" />
+                        )}
                     </div>
                     ))}
                     {postData.gallery2.button != undefined &&
@@ -126,6 +162,29 @@ const PortfolioDetail = ( props ) => {
                     </div>
                     }
                     </>
+                  }
+                </>
+              }
+
+              {typeof postData.description3 != "undefined" &&
+                <>
+                  {postData.description3.enabled == 1 &&
+                  <div className="col-lg-9">
+                    <div className="saundyatext-xl saundyadark saundyaup saundyacenter saundyamb-90" dangerouslySetInnerHTML={{__html : postData.description3.content}} />
+                    {postData.description3.buttons && postData.description3.buttons.length > 0 &&
+                    <div className="saundyaup saundyacenter saundyamb-60">
+                      {postData.description3.buttons.map((button, key) => (
+                        <a key={`description3-button-${key}`} href={button.link} target={button.target || "_blank"} className="saundyalink saundyaup" style={{marginRight: key < postData.description3.buttons.length - 1 ? "20px" : "0"}}>
+                            <span>{button.label}</span>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="feather feather-arrow-right">
+                                <line x1="5" y1="12" x2="19" y2="12" />
+                                <polyline points="12 5 19 12 12 19" />
+                            </svg>
+                        </a>
+                      ))}
+                    </div>
+                    }
+                  </div>
                   }
                 </>
               }

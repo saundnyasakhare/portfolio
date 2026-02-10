@@ -1,0 +1,56 @@
+/* Portfolio Item Overlay Styles */
+.saundyaportfolio-item {
+  position: relative;
+  display: block;
+  margin-bottom: 30px;
+}
+
+.saundyaportfolio-item img {
+  width: 100%;
+  display: block;
+  margin-bottom: 0 !important;
+}
+
+.saundyaportfolio-item-overlay {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  top: 0;
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.85) 0%, rgba(0, 0, 0, 0.4) 40%, transparent 100%);
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  padding: 20px 25px;
+  z-index: 1;
+  pointer-events: none;
+}
+
+.saundyaportfolio-item-overlay h3 {
+  color: #fff;
+  margin: 0;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.saundyaportfolio-item-overlay .saundyalink {
+  color: #fff !important;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 14px;
+  pointer-events: auto;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.saundyaportfolio-item-overlay .saundyalink svg {
+  width: 18px !important;
+  height: 18px !important;
+  background: none !important;
+  background-color: transparent !important;
+  border-radius: 0 !important;
+  padding: 0 !important;
+  margin-left: 4px !important;
+  stroke: #fff;
+}
